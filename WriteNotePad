@@ -1,40 +1,9 @@
-04/22/2020 13:57:14  execution started
-04/22/2020 13:57:17  Click on the ok button
-04/22/2020 13:57:20Enter the password :  india_Uat_PE2
-04/22/2020 13:57:21Enter the password : Vigilant1!
-04/22/2020 13:57:21click on the login button
-04/22/2020 13:57:21  Successfully login the page
-04/22/2020 14:11:56Launch the ubuntuhdc application
-04/22/2020 14:12:09127.0.0.1
-04/22/2020 14:12:11Select camera Camera 1
-04/22/2020 14:12:11Click on the connect button
-04/22/2020 14:12:21Click on the connect buttonTrue
-04/22/2020 14:12:51Cannot find the UI element corresponding to this selector: <wnd app='ubuntuhdcontrol64.exe' cls='#32770' title='UbuntuHDControl64' /><wnd ctrlid='6' title='&amp;Yes' />
-04/22/2020 14:12:52Run the finally block
-04/22/2020 14:14:19Launch the ubuntuhdc application
-04/22/2020 14:14:32127.0.0.1
-04/22/2020 14:14:33Select camera Camera 1
-04/22/2020 14:14:34Click on the connect button
-04/22/2020 14:15:04Click on the connect buttonFalse
-04/22/2020 14:15:04Object reference not set to an instance of an object.
-04/22/2020 14:15:04Run the finally block
-04/22/2020 14:16:49Launch the ubuntuhdc application
-04/22/2020 14:17:02127.0.0.1
-04/22/2020 14:17:03Select camera Camera 1
-04/22/2020 14:17:04Click on the connect button
-04/22/2020 14:17:04Click on the connect buttonTrue
-04/22/2020 14:17:05Popup present and click on the yes buttonTrue
-04/22/2020 14:17:06Click on the change source type
-04/22/2020 14:17:06Video Server
-04/22/2020 14:17:08192.168.2.94
-04/22/2020 14:17:0910002
-04/22/2020 14:17:10admin
-04/22/2020 14:17:1212345
-04/22/2020 14:17:13India.ini
-04/22/2020 14:17:15India.ini
-04/22/2020 14:17:16click on the disconnect button
-04/22/2020 14:17:29
-04/22/2020 14:17:31Select camera Camera 2
-04/22/2020 14:17:31Click on the connect button
-04/22/2020 14:17:31Click on the connect buttonTrue
-04/22/2020 14:17:57Run the finally block
+05/08/2020 15:11:24  execution started
+05/08/2020 15:11:30  Click on the ok button
+05/08/2020 15:11:38Enter the password :  india_Uat_PE2
+05/08/2020 15:11:39Enter the password : Vigilant1!
+05/08/2020 15:11:39click on the login button
+05/08/2020 15:11:39  Successfully login the page
+05/08/2020 15:15:18Launch the ubuntuhdc application
+05/08/2020 15:15:59Timeout reached.
+05/08/2020 15:16:11Run the finally block

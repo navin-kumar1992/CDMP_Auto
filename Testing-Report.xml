@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Test-Suite name="UiPath Project - Test Automation" total="16" passed="16" failures="0" execution-date="04/23/2020 14:18:15" total-time="00:05:57">
+<Test-Suite name="UiPath Project - Test Automation" total="212" passed="202" failures="10" execution-date="04/23/2020 14:18:15" total-time="00:39:56">
   <Result>
     <TestScenario>DayNight</TestScenario>
     <TestName>DayNightShift</TestName>
@@ -110,6 +110,1378 @@
     <TestName>StartShiftEndShift</TestName>
     <Started>05/05/2020 14:16:59</Started>
     <Ended>05/05/2020 14:17:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 11:25:14</Started>
+    <Ended>05/08/2020 11:25:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 11:25:16</Started>
+    <Ended>05/08/2020 11:26:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 11:26:13</Started>
+    <Ended>05/08/2020 11:26:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:26:32</Started>
+    <Ended>05/08/2020 11:27:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:03</Started>
+    <Ended>05/08/2020 11:27:34</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:34</Started>
+    <Ended>05/08/2020 11:27:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:35</Started>
+    <Ended>05/08/2020 11:27:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:37</Started>
+    <Ended>05/08/2020 11:27:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:38</Started>
+    <Ended>05/08/2020 11:27:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:45</Started>
+    <Ended>05/08/2020 11:27:49</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:49</Started>
+    <Ended>05/08/2020 11:27:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:50</Started>
+    <Ended>05/08/2020 11:27:52</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:52</Started>
+    <Ended>05/08/2020 11:27:53</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:54</Started>
+    <Ended>05/08/2020 11:27:56</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:27:57</Started>
+    <Ended>05/08/2020 11:27:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 11:27:58</Started>
+    <Ended>05/08/2020 11:28:56</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 11:28:56</Started>
+    <Ended>05/08/2020 11:29:27</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 11:41:01</Started>
+    <Ended>05/08/2020 11:41:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 11:41:02</Started>
+    <Ended>05/08/2020 11:41:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 11:41:59</Started>
+    <Ended>05/08/2020 11:42:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:42:18</Started>
+    <Ended>05/08/2020 11:42:54</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:42:54</Started>
+    <Ended>05/08/2020 11:42:56</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:42:56</Started>
+    <Ended>05/08/2020 11:42:57</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:42:57</Started>
+    <Ended>05/08/2020 11:42:59</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:42:59</Started>
+    <Ended>05/08/2020 11:43:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:01</Started>
+    <Ended>05/08/2020 11:43:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:07</Started>
+    <Ended>05/08/2020 11:43:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:11</Started>
+    <Ended>05/08/2020 11:43:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:13</Started>
+    <Ended>05/08/2020 11:43:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:14</Started>
+    <Ended>05/08/2020 11:43:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:16</Started>
+    <Ended>05/08/2020 11:43:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 11:43:19</Started>
+    <Ended>05/08/2020 11:43:20</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 11:43:21</Started>
+    <Ended>05/08/2020 11:44:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 11:44:10</Started>
+    <Ended>05/08/2020 11:44:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 11:45:16</Started>
+    <Ended>05/08/2020 11:46:33</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>05/08/2020 11:46:33</Started>
+    <Ended>05/08/2020 11:47:04</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:01:32</Started>
+    <Ended>05/08/2020 12:02:03</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:03:10</Started>
+    <Ended>05/08/2020 12:03:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 12:05:52</Started>
+    <Ended>05/08/2020 12:05:52</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 12:05:52</Started>
+    <Ended>05/08/2020 12:06:49</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 12:06:49</Started>
+    <Ended>05/08/2020 12:06:54</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:07:08</Started>
+    <Ended>05/08/2020 12:07:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:15</Started>
+    <Ended>05/08/2020 12:07:22</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:22</Started>
+    <Ended>05/08/2020 12:07:23</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:23</Started>
+    <Ended>05/08/2020 12:07:25</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:25</Started>
+    <Ended>05/08/2020 12:07:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:27</Started>
+    <Ended>05/08/2020 12:07:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:28</Started>
+    <Ended>05/08/2020 12:07:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:35</Started>
+    <Ended>05/08/2020 12:07:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:39</Started>
+    <Ended>05/08/2020 12:07:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:40</Started>
+    <Ended>05/08/2020 12:07:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:42</Started>
+    <Ended>05/08/2020 12:07:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:43</Started>
+    <Ended>05/08/2020 12:07:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:07:47</Started>
+    <Ended>05/08/2020 12:07:48</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 12:07:48</Started>
+    <Ended>05/08/2020 12:08:39</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 12:08:39</Started>
+    <Ended>05/08/2020 12:09:10</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:19:57</Started>
+    <Ended>05/08/2020 12:19:59</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:05</Started>
+    <Ended>05/08/2020 12:20:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:11</Started>
+    <Ended>05/08/2020 12:20:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:13</Started>
+    <Ended>05/08/2020 12:20:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:14</Started>
+    <Ended>05/08/2020 12:20:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:16</Started>
+    <Ended>05/08/2020 12:20:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:18</Started>
+    <Ended>05/08/2020 12:20:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:24</Started>
+    <Ended>05/08/2020 12:20:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:28</Started>
+    <Ended>05/08/2020 12:20:32</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:33</Started>
+    <Ended>05/08/2020 12:20:34</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:20:34</Started>
+    <Ended>05/08/2020 12:21:05</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:21:05</Started>
+    <Ended>05/08/2020 12:21:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:21:09</Started>
+    <Ended>05/08/2020 12:21:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 12:21:10</Started>
+    <Ended>05/08/2020 12:22:00</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 12:22:00</Started>
+    <Ended>05/08/2020 12:22:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 12:22:40</Started>
+    <Ended>05/08/2020 12:24:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/08/2020 12:24:04</Started>
+    <Ended>05/08/2020 12:24:35</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 12:24:35</Started>
+    <Ended>05/08/2020 12:24:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 12:24:36</Started>
+    <Ended>05/08/2020 12:25:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 12:25:03</Started>
+    <Ended>05/08/2020 12:25:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:36:01</Started>
+    <Ended>05/08/2020 12:36:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:08</Started>
+    <Ended>05/08/2020 12:36:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:15</Started>
+    <Ended>05/08/2020 12:36:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:16</Started>
+    <Ended>05/08/2020 12:36:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:18</Started>
+    <Ended>05/08/2020 12:36:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:20</Started>
+    <Ended>05/08/2020 12:36:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:21</Started>
+    <Ended>05/08/2020 12:36:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:28</Started>
+    <Ended>05/08/2020 12:36:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:32</Started>
+    <Ended>05/08/2020 12:36:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:36:35</Started>
+    <Ended>05/08/2020 12:36:36</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:43:53</Started>
+    <Ended>05/08/2020 12:43:55</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:00</Started>
+    <Ended>05/08/2020 12:44:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:06</Started>
+    <Ended>05/08/2020 12:44:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:08</Started>
+    <Ended>05/08/2020 12:44:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:09</Started>
+    <Ended>05/08/2020 12:44:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:11</Started>
+    <Ended>05/08/2020 12:44:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:13</Started>
+    <Ended>05/08/2020 12:44:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:19</Started>
+    <Ended>05/08/2020 12:44:23</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:23</Started>
+    <Ended>05/08/2020 12:44:25</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:25</Started>
+    <Ended>05/08/2020 12:44:27</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:27</Started>
+    <Ended>05/08/2020 12:44:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:44:58</Started>
+    <Ended>05/08/2020 12:45:29</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:47:44</Started>
+    <Ended>05/08/2020 12:47:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:47:51</Started>
+    <Ended>05/08/2020 12:47:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:47:58</Started>
+    <Ended>05/08/2020 12:47:59</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:47:59</Started>
+    <Ended>05/08/2020 12:48:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:01</Started>
+    <Ended>05/08/2020 12:48:02</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:02</Started>
+    <Ended>05/08/2020 12:48:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>View hit Details button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:04</Started>
+    <Ended>05/08/2020 12:48:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:10</Started>
+    <Ended>05/08/2020 12:48:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:14</Started>
+    <Ended>05/08/2020 12:48:17</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:48:17</Started>
+    <Ended>05/08/2020 12:48:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 12:49:42</Started>
+    <Ended>05/08/2020 12:49:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:49:49</Started>
+    <Ended>05/08/2020 12:49:56</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:49:56</Started>
+    <Ended>05/08/2020 12:49:57</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:49:58</Started>
+    <Ended>05/08/2020 12:49:59</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:49:59</Started>
+    <Ended>05/08/2020 12:50:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:01</Started>
+    <Ended>05/08/2020 12:50:02</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:02</Started>
+    <Ended>05/08/2020 12:50:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:06</Started>
+    <Ended>05/08/2020 12:50:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:08</Started>
+    <Ended>05/08/2020 12:50:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:09</Started>
+    <Ended>05/08/2020 12:50:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:11</Started>
+    <Ended>05/08/2020 12:50:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 12:50:15</Started>
+    <Ended>05/08/2020 12:50:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 12:50:16</Started>
+    <Ended>05/08/2020 12:51:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 12:51:07</Started>
+    <Ended>05/08/2020 12:51:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 12:51:46</Started>
+    <Ended>05/08/2020 12:52:30</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/08/2020 12:52:30</Started>
+    <Ended>05/08/2020 12:52:33</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 12:52:33</Started>
+    <Ended>05/08/2020 12:52:34</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 12:52:34</Started>
+    <Ended>05/08/2020 12:53:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 12:53:01</Started>
+    <Ended>05/08/2020 12:53:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 13:57:41</Started>
+    <Ended>05/08/2020 13:58:13</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:18</Started>
+    <Ended>05/08/2020 13:58:25</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:25</Started>
+    <Ended>05/08/2020 13:58:27</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:27</Started>
+    <Ended>05/08/2020 13:58:29</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:29</Started>
+    <Ended>05/08/2020 13:58:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:31</Started>
+    <Ended>05/08/2020 13:58:32</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:33</Started>
+    <Ended>05/08/2020 13:58:36</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:37</Started>
+    <Ended>05/08/2020 13:58:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:38</Started>
+    <Ended>05/08/2020 13:58:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:40</Started>
+    <Ended>05/08/2020 13:58:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:43</Started>
+    <Ended>05/08/2020 13:58:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 13:58:47</Started>
+    <Ended>05/08/2020 13:58:47</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 13:58:48</Started>
+    <Ended>05/08/2020 13:59:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 13:59:41</Started>
+    <Ended>05/08/2020 13:59:47</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 14:00:20</Started>
+    <Ended>05/08/2020 14:01:22</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/08/2020 14:01:22</Started>
+    <Ended>05/08/2020 14:01:25</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:01:25</Started>
+    <Ended>05/08/2020 14:01:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 14:01:26</Started>
+    <Ended>05/08/2020 14:01:53</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 14:01:54</Started>
+    <Ended>05/08/2020 14:01:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:10:33</Started>
+    <Ended>05/08/2020 14:10:33</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:14:46</Started>
+    <Ended>05/08/2020 14:14:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:16:10</Started>
+    <Ended>05/08/2020 14:16:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:17:22</Started>
+    <Ended>05/08/2020 14:17:22</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:18:21</Started>
+    <Ended>05/08/2020 14:18:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 14:22:40</Started>
+    <Ended>05/08/2020 14:22:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 14:24:59</Started>
+    <Ended>05/08/2020 14:25:27</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 14:27:29</Started>
+    <Ended>05/08/2020 14:27:30</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 14:57:55</Started>
+    <Ended>05/08/2020 14:58:26</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:58:32</Started>
+    <Ended>05/08/2020 14:58:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:58:39</Started>
+    <Ended>05/08/2020 14:58:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:58:41</Started>
+    <Ended>05/08/2020 14:58:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:58:43</Started>
+    <Ended>05/08/2020 14:59:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:14</Started>
+    <Ended>05/08/2020 14:59:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:16</Started>
+    <Ended>05/08/2020 14:59:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:20</Started>
+    <Ended>05/08/2020 14:59:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:22</Started>
+    <Ended>05/08/2020 14:59:23</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:24</Started>
+    <Ended>05/08/2020 14:59:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:26</Started>
+    <Ended>05/08/2020 14:59:29</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 14:59:31</Started>
+    <Ended>05/08/2020 14:59:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 14:59:33</Started>
+    <Ended>05/08/2020 15:00:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 15:00:26</Started>
+    <Ended>05/08/2020 15:00:33</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 15:01:07</Started>
+    <Ended>05/08/2020 15:02:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 15:02:11</Started>
+    <Ended>05/08/2020 15:02:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 15:02:16</Started>
+    <Ended>05/08/2020 15:02:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 15:02:49</Started>
+    <Ended>05/08/2020 15:02:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/08/2020 15:02:57</Started>
+    <Ended>05/08/2020 15:03:00</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 15:08:54</Started>
+    <Ended>05/08/2020 15:09:25</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:09:31</Started>
+    <Ended>05/08/2020 15:09:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:09:38</Started>
+    <Ended>05/08/2020 15:09:39</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:09:40</Started>
+    <Ended>05/08/2020 15:09:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:11:45</Started>
+    <Ended>05/08/2020 15:12:22</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:22</Started>
+    <Ended>05/08/2020 15:12:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:24</Started>
+    <Ended>05/08/2020 15:12:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:26</Started>
+    <Ended>05/08/2020 15:12:29</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:29</Started>
+    <Ended>05/08/2020 15:12:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:31</Started>
+    <Ended>05/08/2020 15:12:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:35</Started>
+    <Ended>05/08/2020 15:12:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:37</Started>
+    <Ended>05/08/2020 15:12:39</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:39</Started>
+    <Ended>05/08/2020 15:12:41</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:42</Started>
+    <Ended>05/08/2020 15:12:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/08/2020 15:12:46</Started>
+    <Ended>05/08/2020 15:12:47</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>05/08/2020 15:12:48</Started>
+    <Ended>05/08/2020 15:13:41</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/08/2020 15:13:42</Started>
+    <Ended>05/08/2020 15:13:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/08/2020 15:13:44</Started>
+    <Ended>05/08/2020 15:13:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/08/2020 15:14:24</Started>
+    <Ended>05/08/2020 15:15:12</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/08/2020 15:15:12</Started>
+    <Ended>05/08/2020 15:15:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/08/2020 15:15:18</Started>
+    <Ended>05/08/2020 15:15:59</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/08/2020 15:16:12</Started>
+    <Ended>05/08/2020 15:16:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/08/2020 15:16:20</Started>
+    <Ended>05/08/2020 15:16:23</Ended>
     <Status>PASSED</Status>
   </Result>
 </Test-Suite>
