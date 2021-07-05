@@ -1,0 +1,8 @@
+{
+    "Port":11009,
+    "DeviceID":"UBLOXVCP",
+    "Baud":115200,
+    "Sessions":5,
+    "SerialInterval":500,
+    "SocketTimeOut":3000
+}

@@ -1,1487 +1,2362 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Test-Suite name="UiPath Project - Test Automation" total="212" passed="202" failures="10" execution-date="04/23/2020 14:18:15" total-time="00:39:56">
+<Test-Suite name="UiPath Project - Test Automation" total="337" passed="309" failures="28" execution-date="05/13/2020 13:11:03" total-time="01:56:44">
   <Result>
-    <TestScenario>DayNight</TestScenario>
-    <TestName>DayNightShift</TestName>
-    <Started>04/23/2020 14:18:09</Started>
-    <Ended>04/23/2020 14:18:15</Ended>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:10:22</Started>
+    <Ended>05/13/2020 13:11:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:03</Started>
+    <Ended>05/13/2020 13:11:05</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:05</Started>
+    <Ended>05/13/2020 13:11:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:07</Started>
+    <Ended>05/13/2020 13:11:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:09</Started>
+    <Ended>05/13/2020 13:11:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:11</Started>
+    <Ended>05/13/2020 13:11:14</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:15</Started>
+    <Ended>05/13/2020 13:11:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:17</Started>
+    <Ended>05/13/2020 13:11:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:18</Started>
+    <Ended>05/13/2020 13:11:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:21</Started>
+    <Ended>05/13/2020 13:11:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>Home_Smoke</TestName>
+    <Started>05/13/2020 13:11:25</Started>
+    <Ended>05/13/2020 13:11:26</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
     <TestName>Setup</TestName>
-    <Started>04/24/2020 18:55:35</Started>
-    <Ended>04/24/2020 18:56:16</Ended>
+    <Started>05/13/2020 13:11:27</Started>
+    <Ended>05/13/2020 13:12:22</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>Search</TestName>
+    <Started>05/13/2020 13:12:23</Started>
+    <Ended>05/13/2020 13:13:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>GPS_Simulation</TestName>
+    <Started>05/13/2020 13:13:56</Started>
+    <Ended>05/13/2020 13:13:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>Location</TestName>
+    <Started>05/13/2020 13:13:58</Started>
+    <Ended>05/13/2020 13:14:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>FaceTracking</TestName>
+    <Started>05/13/2020 13:15:09</Started>
+    <Ended>05/13/2020 13:15:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>UbuntuHDC</TestName>
+    <Started>05/13/2020 13:15:13</Started>
+    <Ended>05/13/2020 13:15:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>VideoServer</TestName>
+    <Started>05/13/2020 13:15:48</Started>
+    <Ended>05/13/2020 13:15:49</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>05/13/2020 13:15:55</Started>
+    <Ended>05/13/2020 13:15:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>05/28/2020 18:04:24</Started>
+    <Ended>05/28/2020 18:04:47</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>05/28/2020 18:05:12</Started>
+    <Ended>05/28/2020 18:05:46</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>05/28/2020 18:07:43</Started>
+    <Ended>05/28/2020 18:08:16</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:26:38</Started>
+    <Ended>06/29/2021 13:26:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:27:48</Started>
+    <Ended>06/29/2021 13:27:48</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:27:52</Started>
+    <Ended>06/29/2021 13:28:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:31:49</Started>
+    <Ended>06/29/2021 13:31:49</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:31:53</Started>
+    <Ended>06/29/2021 13:32:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:36:03</Started>
+    <Ended>06/29/2021 13:36:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:36:06</Started>
+    <Ended>06/29/2021 13:37:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:37:08</Started>
+    <Ended>06/29/2021 13:37:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:37:10</Started>
+    <Ended>06/29/2021 13:37:20</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:37:25</Started>
+    <Ended>06/29/2021 13:37:55</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:38:01</Started>
+    <Ended>06/29/2021 13:38:36</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:38:36</Started>
+    <Ended>06/29/2021 13:39:06</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:40:17</Started>
+    <Ended>06/29/2021 13:40:17</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:40:21</Started>
+    <Ended>06/29/2021 13:41:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:41:24</Started>
+    <Ended>06/29/2021 13:41:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:41:26</Started>
+    <Ended>06/29/2021 13:41:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:41:45</Started>
+    <Ended>06/29/2021 13:42:15</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:42:20</Started>
+    <Ended>06/29/2021 13:42:55</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:42:56</Started>
+    <Ended>06/29/2021 13:43:26</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:43:26</Started>
+    <Ended>06/29/2021 13:43:56</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:43:56</Started>
+    <Ended>06/29/2021 13:44:26</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:44:26</Started>
+    <Ended>06/29/2021 13:44:57</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:44:57</Started>
+    <Ended>06/29/2021 13:45:27</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear list button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:45:27</Started>
+    <Ended>06/29/2021 13:45:57</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Clear hit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:45:57</Started>
+    <Ended>06/29/2021 13:46:27</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:46:28</Started>
+    <Ended>06/29/2021 13:46:58</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:47:28</Started>
+    <Ended>06/29/2021 13:47:59</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>04/24/2020 19:01:28</Started>
-    <Ended>04/24/2020 19:02:02</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:47:59</Started>
+    <Ended>06/29/2021 13:48:30</Ended>
     <Status>Failed</Status>
   </Result>
   <Result>
-    <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>04/24/2020 19:03:38</Started>
-    <Ended>04/24/2020 19:04:17</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>04/24/2020 19:05:12</Started>
-    <Ended>04/24/2020 19:05:52</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>04/24/2020 19:09:30</Started>
-    <Ended>04/24/2020 19:10:19</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>04/29/2020 19:55:26</Started>
-    <Ended>04/29/2020 19:55:29</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>04/29/2020 19:57:49</Started>
-    <Ended>04/29/2020 19:57:52</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/04/2020 17:50:47</Started>
-    <Ended>05/04/2020 17:50:49</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/04/2020 17:51:25</Started>
-    <Ended>05/04/2020 17:51:27</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/04/2020 17:52:52</Started>
-    <Ended>05/04/2020 17:52:54</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/04/2020 18:42:20</Started>
-    <Ended>05/04/2020 18:42:27</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/04/2020 18:44:00</Started>
-    <Ended>05/04/2020 18:44:08</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/05/2020 14:02:30</Started>
-    <Ended>05/05/2020 14:03:04</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/05/2020 14:09:35</Started>
-    <Ended>05/05/2020 14:10:17</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>StartShiftEndShift</TestScenario>
-    <TestName>StartShiftEndShift</TestName>
-    <Started>05/05/2020 14:16:59</Started>
-    <Ended>05/05/2020 14:17:44</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
     <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 11:25:14</Started>
-    <Ended>05/08/2020 11:25:15</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:48:56</Started>
+    <Ended>06/29/2021 13:48:57</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 11:25:16</Started>
-    <Ended>05/08/2020 11:26:13</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:49:01</Started>
+    <Ended>06/29/2021 13:49:59</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 11:26:13</Started>
-    <Ended>05/08/2020 11:26:18</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:50:04</Started>
+    <Ended>06/29/2021 13:50:05</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:50:05</Started>
+    <Ended>06/29/2021 13:50:20</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:50:25</Started>
+    <Ended>06/29/2021 13:50:55</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:26:32</Started>
-    <Ended>05/08/2020 11:27:03</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:51:01</Started>
+    <Ended>06/29/2021 13:51:36</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:51:36</Started>
+    <Ended>06/29/2021 13:52:06</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:52:07</Started>
+    <Ended>06/29/2021 13:52:37</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:52:37</Started>
+    <Ended>06/29/2021 13:53:07</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:53:07</Started>
+    <Ended>06/29/2021 13:53:37</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Refresh button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 13:53:38</Started>
+    <Ended>06/29/2021 13:54:08</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:14:42</Started>
+    <Ended>06/29/2021 14:14:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:14:45</Started>
+    <Ended>06/29/2021 14:15:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:15:47</Started>
+    <Ended>06/29/2021 14:15:49</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:15:49</Started>
+    <Ended>06/29/2021 14:15:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:03</Started>
+    <Ended>06/29/2021 14:16:33</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:39</Started>
+    <Ended>06/29/2021 14:16:45</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:03</Started>
-    <Ended>05/08/2020 11:27:34</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:45</Started>
+    <Ended>06/29/2021 14:16:47</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:34</Started>
-    <Ended>05/08/2020 11:27:35</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:47</Started>
+    <Ended>06/29/2021 14:16:48</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:35</Started>
-    <Ended>05/08/2020 11:27:37</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:48</Started>
+    <Ended>06/29/2021 14:16:50</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:37</Started>
-    <Ended>05/08/2020 11:27:38</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:38</Started>
-    <Ended>05/08/2020 11:27:45</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:50</Started>
+    <Ended>06/29/2021 14:16:51</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:45</Started>
-    <Ended>05/08/2020 11:27:49</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:51</Started>
+    <Ended>06/29/2021 14:16:55</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:49</Started>
-    <Ended>05/08/2020 11:27:50</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:16:55</Started>
+    <Ended>06/29/2021 14:17:26</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:50</Started>
-    <Ended>05/08/2020 11:27:52</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:17:26</Started>
+    <Ended>06/29/2021 14:17:56</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:52</Started>
-    <Ended>05/08/2020 11:27:53</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:54</Started>
-    <Ended>05/08/2020 11:27:56</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:17:56</Started>
+    <Ended>06/29/2021 14:17:58</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:27:57</Started>
-    <Ended>05/08/2020 11:27:58</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:17:59</Started>
+    <Ended>06/29/2021 14:18:30</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 11:27:58</Started>
-    <Ended>05/08/2020 11:28:56</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:18:30</Started>
+    <Ended>06/29/2021 14:19:01</Ended>
     <Status>Failed</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 11:28:56</Started>
-    <Ended>05/08/2020 11:29:27</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:19:01</Started>
+    <Ended>06/29/2021 14:19:31</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
     <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 11:41:01</Started>
-    <Ended>05/08/2020 11:41:01</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:24:31</Started>
+    <Ended>06/29/2021 14:24:32</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 11:41:02</Started>
-    <Ended>05/08/2020 11:41:58</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:24:35</Started>
+    <Ended>06/29/2021 14:25:32</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 11:41:59</Started>
-    <Ended>05/08/2020 11:42:04</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:25:37</Started>
+    <Ended>06/29/2021 14:25:38</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:25:38</Started>
+    <Ended>06/29/2021 14:25:48</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:25:53</Started>
+    <Ended>06/29/2021 14:26:23</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:42:18</Started>
-    <Ended>05/08/2020 11:42:54</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:28</Started>
+    <Ended>06/29/2021 14:26:35</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:42:54</Started>
-    <Ended>05/08/2020 11:42:56</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:35</Started>
+    <Ended>06/29/2021 14:26:36</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:42:56</Started>
-    <Ended>05/08/2020 11:42:57</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:36</Started>
+    <Ended>06/29/2021 14:26:38</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:42:57</Started>
-    <Ended>05/08/2020 11:42:59</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:38</Started>
+    <Ended>06/29/2021 14:26:39</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:42:59</Started>
-    <Ended>05/08/2020 11:43:01</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:01</Started>
-    <Ended>05/08/2020 11:43:07</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:07</Started>
-    <Ended>05/08/2020 11:43:11</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:11</Started>
-    <Ended>05/08/2020 11:43:13</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:13</Started>
-    <Ended>05/08/2020 11:43:14</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:39</Started>
+    <Ended>06/29/2021 14:26:41</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:14</Started>
-    <Ended>05/08/2020 11:43:16</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:16</Started>
-    <Ended>05/08/2020 11:43:19</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:41</Started>
+    <Ended>06/29/2021 14:26:42</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 11:43:19</Started>
-    <Ended>05/08/2020 11:43:20</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:26:44</Started>
+    <Ended>06/29/2021 14:27:15</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 11:43:21</Started>
-    <Ended>05/08/2020 11:44:10</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:27:15</Started>
+    <Ended>06/29/2021 14:27:51</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:27:51</Started>
+    <Ended>06/29/2021 14:28:22</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:36:24</Started>
+    <Ended>06/29/2021 14:36:54</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:36:59</Started>
+    <Ended>06/29/2021 14:37:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:06</Started>
+    <Ended>06/29/2021 14:37:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:07</Started>
+    <Ended>06/29/2021 14:37:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:09</Started>
+    <Ended>06/29/2021 14:37:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:10</Started>
+    <Ended>06/29/2021 14:37:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:12</Started>
+    <Ended>06/29/2021 14:37:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:14</Started>
+    <Ended>06/29/2021 14:37:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:37:46</Started>
+    <Ended>06/29/2021 14:38:49</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:38:49</Started>
+    <Ended>06/29/2021 14:39:19</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:01</Started>
+    <Ended>06/29/2021 14:55:32</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:37</Started>
+    <Ended>06/29/2021 14:55:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:43</Started>
+    <Ended>06/29/2021 14:55:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:45</Started>
+    <Ended>06/29/2021 14:55:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:46</Started>
+    <Ended>06/29/2021 14:55:48</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:48</Started>
+    <Ended>06/29/2021 14:55:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:50</Started>
+    <Ended>06/29/2021 14:55:51</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:55:52</Started>
+    <Ended>06/29/2021 14:56:23</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:56:23</Started>
+    <Ended>06/29/2021 14:57:14</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 11:44:10</Started>
-    <Ended>05/08/2020 11:44:16</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 14:57:14</Started>
+    <Ended>06/29/2021 14:57:48</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:10</Started>
+    <Ended>06/29/2021 15:34:40</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:45</Started>
+    <Ended>06/29/2021 15:34:52</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:52</Started>
+    <Ended>06/29/2021 15:34:53</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:53</Started>
+    <Ended>06/29/2021 15:34:55</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:55</Started>
+    <Ended>06/29/2021 15:34:56</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:56</Started>
+    <Ended>06/29/2021 15:34:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:34:58</Started>
+    <Ended>06/29/2021 15:34:59</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:35:01</Started>
+    <Ended>06/29/2021 15:35:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:35:32</Started>
+    <Ended>06/29/2021 15:36:03</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:37:53</Started>
+    <Ended>06/29/2021 15:38:24</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:29</Started>
+    <Ended>06/29/2021 15:38:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:35</Started>
+    <Ended>06/29/2021 15:38:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:37</Started>
+    <Ended>06/29/2021 15:38:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:38</Started>
+    <Ended>06/29/2021 15:38:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:40</Started>
+    <Ended>06/29/2021 15:38:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:42</Started>
+    <Ended>06/29/2021 15:38:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:38:45</Started>
+    <Ended>06/29/2021 15:39:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:39:16</Started>
+    <Ended>06/29/2021 15:40:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:40:08</Started>
+    <Ended>06/29/2021 15:40:38</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:45:40</Started>
+    <Ended>06/29/2021 15:46:11</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:47:06</Started>
+    <Ended>06/29/2021 15:47:36</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 15:47:41</Started>
+    <Ended>06/29/2021 15:48:12</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:11:32</Started>
+    <Ended>06/29/2021 16:11:32</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:11:35</Started>
+    <Ended>06/29/2021 16:12:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:12:35</Started>
+    <Ended>06/29/2021 16:12:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:12:37</Started>
+    <Ended>06/29/2021 16:12:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:12:51</Started>
+    <Ended>06/29/2021 16:12:53</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:12:58</Started>
+    <Ended>06/29/2021 16:13:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:04</Started>
+    <Ended>06/29/2021 16:13:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:06</Started>
+    <Ended>06/29/2021 16:13:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:07</Started>
+    <Ended>06/29/2021 16:13:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:09</Started>
+    <Ended>06/29/2021 16:13:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:10</Started>
+    <Ended>06/29/2021 16:13:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Display</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:13:12</Started>
+    <Ended>06/29/2021 16:13:43</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:19:31</Started>
+    <Ended>06/29/2021 16:19:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:19:34</Started>
+    <Ended>06/29/2021 16:20:30</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:20:34</Started>
+    <Ended>06/29/2021 16:20:36</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:20:36</Started>
+    <Ended>06/29/2021 16:20:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:20:55</Started>
+    <Ended>06/29/2021 16:21:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:01</Started>
+    <Ended>06/29/2021 16:21:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:03</Started>
+    <Ended>06/29/2021 16:21:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:04</Started>
+    <Ended>06/29/2021 16:21:06</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:06</Started>
+    <Ended>06/29/2021 16:21:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:07</Started>
+    <Ended>06/29/2021 16:21:09</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:11</Started>
+    <Ended>06/29/2021 16:21:41</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:21:42</Started>
+    <Ended>06/29/2021 16:22:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/29/2021 16:22:26</Started>
+    <Ended>06/29/2021 16:22:57</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 13:08:43</Started>
+    <Ended>06/30/2021 13:09:16</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 13:09:23</Started>
+    <Ended>06/30/2021 13:09:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 13:09:30</Started>
+    <Ended>06/30/2021 13:10:01</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:33:25</Started>
+    <Ended>06/30/2021 14:33:56</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:36:03</Started>
+    <Ended>06/30/2021 14:36:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:36:27</Started>
+    <Ended>06/30/2021 14:36:58</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:50:15</Started>
+    <Ended>06/30/2021 14:50:47</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>'Search Module</TestScenario>
-    <TestName>Search</TestName>
-    <Started>05/08/2020 11:45:16</Started>
-    <Ended>05/08/2020 11:46:33</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:51:20</Started>
+    <Ended>06/30/2021 14:51:25</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 14:51:55</Started>
+    <Ended>06/30/2021 14:52:26</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 15:40:53</Started>
+    <Ended>06/30/2021 15:40:59</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 15:41:29</Started>
+    <Ended>06/30/2021 15:41:59</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 15:45:47</Started>
+    <Ended>06/30/2021 15:47:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 15:47:13</Started>
+    <Ended>06/30/2021 15:47:44</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
     <TestScenario>StartShiftEndShift</TestScenario>
     <TestName>StartShiftEndShift</TestName>
-    <Started>05/08/2020 11:46:33</Started>
-    <Ended>05/08/2020 11:47:04</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:01:32</Started>
-    <Ended>05/08/2020 12:02:03</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:03:10</Started>
-    <Ended>05/08/2020 12:03:12</Ended>
+    <Started>06/30/2021 16:05:08</Started>
+    <Ended>06/30/2021 16:05:54</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>06/30/2021 16:52:08</Started>
+    <Ended>06/30/2021 16:52:39</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 16:54:01</Started>
+    <Ended>06/30/2021 16:54:38</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>06/30/2021 16:55:08</Started>
+    <Ended>06/30/2021 16:55:39</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>06/30/2021 17:14:55</Started>
+    <Ended>06/30/2021 17:15:41</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>Exit</TestName>
+    <Started>06/30/2021 17:16:07</Started>
+    <Ended>06/30/2021 17:16:39</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 12:05:52</Started>
-    <Ended>05/08/2020 12:05:52</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:26:11</Started>
+    <Ended>07/02/2021 12:26:11</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 12:05:52</Started>
-    <Ended>05/08/2020 12:06:49</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:26:15</Started>
+    <Ended>07/02/2021 12:27:12</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 12:06:49</Started>
-    <Ended>05/08/2020 12:06:54</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:27:17</Started>
+    <Ended>07/02/2021 12:27:19</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:07:08</Started>
-    <Ended>05/08/2020 12:07:10</Ended>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:27:19</Started>
+    <Ended>07/02/2021 12:27:30</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:15</Started>
-    <Ended>05/08/2020 12:07:22</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:27:40</Started>
+    <Ended>07/02/2021 12:28:17</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:22</Started>
-    <Ended>05/08/2020 12:07:23</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:17</Started>
+    <Ended>07/02/2021 12:28:18</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:23</Started>
-    <Ended>05/08/2020 12:07:25</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:18</Started>
+    <Ended>07/02/2021 12:28:20</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:25</Started>
-    <Ended>05/08/2020 12:07:26</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:20</Started>
+    <Ended>07/02/2021 12:28:21</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:27</Started>
-    <Ended>05/08/2020 12:07:28</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:28</Started>
-    <Ended>05/08/2020 12:07:35</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:35</Started>
-    <Ended>05/08/2020 12:07:38</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:39</Started>
-    <Ended>05/08/2020 12:07:40</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:40</Started>
-    <Ended>05/08/2020 12:07:42</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:21</Started>
+    <Ended>07/02/2021 12:28:23</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:42</Started>
-    <Ended>05/08/2020 12:07:43</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:43</Started>
-    <Ended>05/08/2020 12:07:46</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:23</Started>
+    <Ended>07/02/2021 12:28:24</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:07:47</Started>
-    <Ended>05/08/2020 12:07:48</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:26</Started>
+    <Ended>07/02/2021 12:28:57</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 12:07:48</Started>
-    <Ended>05/08/2020 12:08:39</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:28:57</Started>
+    <Ended>07/02/2021 12:29:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:29:50</Started>
+    <Ended>07/02/2021 12:30:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:38:36</Started>
+    <Ended>07/02/2021 12:38:36</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:38:40</Started>
+    <Ended>07/02/2021 12:39:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:39:42</Started>
+    <Ended>07/02/2021 12:39:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:39:43</Started>
+    <Ended>07/02/2021 12:39:53</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:03</Started>
+    <Ended>07/02/2021 12:40:10</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:10</Started>
+    <Ended>07/02/2021 12:40:11</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:11</Started>
+    <Ended>07/02/2021 12:40:13</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:13</Started>
+    <Ended>07/02/2021 12:40:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:15</Started>
+    <Ended>07/02/2021 12:40:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:16</Started>
+    <Ended>07/02/2021 12:40:18</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:19</Started>
+    <Ended>07/02/2021 12:40:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:40:50</Started>
+    <Ended>07/02/2021 12:41:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:41:42</Started>
+    <Ended>07/02/2021 12:42:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:47:02</Started>
+    <Ended>07/02/2021 12:47:02</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:47:05</Started>
+    <Ended>07/02/2021 12:48:02</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:07</Started>
+    <Ended>07/02/2021 12:48:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:08</Started>
+    <Ended>07/02/2021 12:48:19</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:29</Started>
+    <Ended>07/02/2021 12:48:36</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:36</Started>
+    <Ended>07/02/2021 12:48:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:37</Started>
+    <Ended>07/02/2021 12:48:39</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:39</Started>
+    <Ended>07/02/2021 12:48:41</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:41</Started>
+    <Ended>07/02/2021 12:48:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:42</Started>
+    <Ended>07/02/2021 12:48:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:48:46</Started>
+    <Ended>07/02/2021 12:49:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:49:17</Started>
+    <Ended>07/02/2021 12:50:04</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:50:09</Started>
+    <Ended>07/02/2021 12:50:46</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:51:31</Started>
+    <Ended>07/02/2021 12:52:47</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:53:18</Started>
+    <Ended>07/02/2021 12:53:49</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:55:44</Started>
+    <Ended>07/02/2021 12:55:44</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:55:48</Started>
+    <Ended>07/02/2021 12:56:45</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:56:50</Started>
+    <Ended>07/02/2021 12:56:51</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:56:51</Started>
+    <Ended>07/02/2021 12:57:01</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:06</Started>
+    <Ended>07/02/2021 12:57:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:13</Started>
+    <Ended>07/02/2021 12:57:20</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:20</Started>
+    <Ended>07/02/2021 12:57:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:21</Started>
+    <Ended>07/02/2021 12:57:23</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:23</Started>
+    <Ended>07/02/2021 12:57:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:24</Started>
+    <Ended>07/02/2021 12:57:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:26</Started>
+    <Ended>07/02/2021 12:57:27</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:57:29</Started>
+    <Ended>07/02/2021 12:58:00</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:58:00</Started>
+    <Ended>07/02/2021 12:58:31</Ended>
     <Status>Failed</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 12:08:39</Started>
-    <Ended>05/08/2020 12:09:10</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 12:58:37</Started>
+    <Ended>07/02/2021 12:59:09</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:19:57</Started>
-    <Ended>05/08/2020 12:19:59</Ended>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:57:20</Started>
+    <Ended>07/02/2021 13:57:21</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:57:24</Started>
+    <Ended>07/02/2021 13:58:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:58:26</Started>
+    <Ended>07/02/2021 13:58:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:58:28</Started>
+    <Ended>07/02/2021 13:58:38</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:58:43</Started>
+    <Ended>07/02/2021 13:59:22</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:05</Started>
-    <Ended>05/08/2020 12:20:11</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:27</Started>
+    <Ended>07/02/2021 13:59:33</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:11</Started>
-    <Ended>05/08/2020 12:20:13</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:34</Started>
+    <Ended>07/02/2021 13:59:35</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:13</Started>
-    <Ended>05/08/2020 12:20:14</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:35</Started>
+    <Ended>07/02/2021 13:59:37</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:14</Started>
-    <Ended>05/08/2020 12:20:16</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:37</Started>
+    <Ended>07/02/2021 13:59:38</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:16</Started>
-    <Ended>05/08/2020 12:20:18</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:18</Started>
-    <Ended>05/08/2020 12:20:24</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:24</Started>
-    <Ended>05/08/2020 12:20:28</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:28</Started>
-    <Ended>05/08/2020 12:20:32</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:33</Started>
-    <Ended>05/08/2020 12:20:34</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:38</Started>
+    <Ended>07/02/2021 13:59:40</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:20:34</Started>
-    <Ended>05/08/2020 12:21:05</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:21:05</Started>
-    <Ended>05/08/2020 12:21:08</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:40</Started>
+    <Ended>07/02/2021 13:59:41</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:21:09</Started>
-    <Ended>05/08/2020 12:21:09</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 13:59:43</Started>
+    <Ended>07/02/2021 14:00:14</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 12:21:10</Started>
-    <Ended>05/08/2020 12:22:00</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:00:14</Started>
+    <Ended>07/02/2021 14:01:01</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 12:22:00</Started>
-    <Ended>05/08/2020 12:22:06</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:01:07</Started>
+    <Ended>07/02/2021 14:01:43</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:02:26</Started>
+    <Ended>07/02/2021 14:04:12</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:05:21</Started>
+    <Ended>07/02/2021 14:05:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:05:24</Started>
+    <Ended>07/02/2021 14:06:21</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:06:27</Started>
+    <Ended>07/02/2021 14:06:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:06:28</Started>
+    <Ended>07/02/2021 14:06:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:06:47</Started>
+    <Ended>07/02/2021 14:07:18</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:23</Started>
+    <Ended>07/02/2021 14:07:30</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:30</Started>
+    <Ended>07/02/2021 14:07:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:31</Started>
+    <Ended>07/02/2021 14:07:33</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:33</Started>
+    <Ended>07/02/2021 14:07:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:35</Started>
+    <Ended>07/02/2021 14:07:37</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:37</Started>
+    <Ended>07/02/2021 14:07:39</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:07:41</Started>
+    <Ended>07/02/2021 14:08:12</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:08:13</Started>
+    <Ended>07/02/2021 14:09:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:09:09</Started>
+    <Ended>07/02/2021 14:09:40</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:14:50</Started>
+    <Ended>07/02/2021 14:14:50</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:14:54</Started>
+    <Ended>07/02/2021 14:15:52</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:15:56</Started>
+    <Ended>07/02/2021 14:15:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:15:58</Started>
+    <Ended>07/02/2021 14:16:07</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:12</Started>
+    <Ended>07/02/2021 14:16:15</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Locatopn</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:20</Started>
+    <Ended>07/02/2021 14:16:27</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Import Hot-List button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:27</Started>
+    <Ended>07/02/2021 14:16:28</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add plate</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:28</Started>
+    <Ended>07/02/2021 14:16:30</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Search button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:30</Started>
+    <Ended>07/02/2021 14:16:31</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Exit button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:31</Started>
+    <Ended>07/02/2021 14:16:34</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Setup button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:34</Started>
+    <Ended>07/02/2021 14:16:35</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Minimize button</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:16:37</Started>
+    <Ended>07/02/2021 14:17:08</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:17:08</Started>
+    <Ended>07/02/2021 14:17:58</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:18:04</Started>
+    <Ended>07/02/2021 14:18:40</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>'Search Module</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:19:26</Started>
+    <Ended>07/02/2021 14:21:03</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 14:21:33</Started>
+    <Ended>07/02/2021 14:23:17</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Setup</TestScenario>
+    <TestName>Setup</TestName>
+    <Started>07/02/2021 14:25:03</Started>
+    <Ended>07/02/2021 14:25:58</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>'Search Module</TestScenario>
     <TestName>Search</TestName>
-    <Started>05/08/2020 12:22:40</Started>
-    <Ended>05/08/2020 12:24:04</Ended>
+    <Started>07/02/2021 14:28:48</Started>
+    <Ended>07/02/2021 14:29:54</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
-    <TestScenario>Exit</TestScenario>
-    <TestName>Exit</TestName>
-    <Started>05/08/2020 12:24:04</Started>
-    <Ended>05/08/2020 12:24:35</Ended>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 14:30:54</Started>
+    <Ended>07/02/2021 14:31:30</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 12:24:35</Started>
-    <Ended>05/08/2020 12:24:35</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 12:24:36</Started>
-    <Ended>05/08/2020 12:25:03</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 12:25:03</Started>
-    <Ended>05/08/2020 12:25:07</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:36:01</Started>
-    <Ended>05/08/2020 12:36:03</Ended>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:16:26</Started>
+    <Ended>07/02/2021 15:16:39</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:08</Started>
-    <Ended>05/08/2020 12:36:15</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:16:45</Started>
+    <Ended>07/02/2021 15:17:25</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:15</Started>
-    <Ended>05/08/2020 12:36:16</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:25</Started>
+    <Ended>07/02/2021 15:17:26</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:16</Started>
-    <Ended>05/08/2020 12:36:18</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:27</Started>
+    <Ended>07/02/2021 15:17:28</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:18</Started>
-    <Ended>05/08/2020 12:36:19</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:28</Started>
+    <Ended>07/02/2021 15:17:30</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:20</Started>
-    <Ended>05/08/2020 12:36:21</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:21</Started>
-    <Ended>05/08/2020 12:36:28</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:28</Started>
-    <Ended>05/08/2020 12:36:31</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:32</Started>
-    <Ended>05/08/2020 12:36:35</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:36:35</Started>
-    <Ended>05/08/2020 12:36:36</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:43:53</Started>
-    <Ended>05/08/2020 12:43:55</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:00</Started>
-    <Ended>05/08/2020 12:44:06</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:06</Started>
-    <Ended>05/08/2020 12:44:08</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:08</Started>
-    <Ended>05/08/2020 12:44:09</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:09</Started>
-    <Ended>05/08/2020 12:44:11</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:11</Started>
-    <Ended>05/08/2020 12:44:12</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:13</Started>
-    <Ended>05/08/2020 12:44:19</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:19</Started>
-    <Ended>05/08/2020 12:44:23</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:23</Started>
-    <Ended>05/08/2020 12:44:25</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:25</Started>
-    <Ended>05/08/2020 12:44:27</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:30</Started>
+    <Ended>07/02/2021 15:17:32</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:27</Started>
-    <Ended>05/08/2020 12:44:58</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:44:58</Started>
-    <Ended>05/08/2020 12:45:29</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:47:44</Started>
-    <Ended>05/08/2020 12:47:46</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:47:51</Started>
-    <Ended>05/08/2020 12:47:58</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:47:58</Started>
-    <Ended>05/08/2020 12:47:59</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:47:59</Started>
-    <Ended>05/08/2020 12:48:01</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:01</Started>
-    <Ended>05/08/2020 12:48:02</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:02</Started>
-    <Ended>05/08/2020 12:48:04</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>View hit Details button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:04</Started>
-    <Ended>05/08/2020 12:48:10</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:10</Started>
-    <Ended>05/08/2020 12:48:14</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:14</Started>
-    <Ended>05/08/2020 12:48:17</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:48:17</Started>
-    <Ended>05/08/2020 12:48:18</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 12:49:42</Started>
-    <Ended>05/08/2020 12:49:44</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:49:49</Started>
-    <Ended>05/08/2020 12:49:56</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:49:56</Started>
-    <Ended>05/08/2020 12:49:57</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:49:58</Started>
-    <Ended>05/08/2020 12:49:59</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:49:59</Started>
-    <Ended>05/08/2020 12:50:01</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:01</Started>
-    <Ended>05/08/2020 12:50:02</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:02</Started>
-    <Ended>05/08/2020 12:50:06</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:06</Started>
-    <Ended>05/08/2020 12:50:08</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:08</Started>
-    <Ended>05/08/2020 12:50:09</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:09</Started>
-    <Ended>05/08/2020 12:50:11</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:11</Started>
-    <Ended>05/08/2020 12:50:14</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:32</Started>
+    <Ended>07/02/2021 15:17:34</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 12:50:15</Started>
-    <Ended>05/08/2020 12:50:15</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:17:36</Started>
+    <Ended>07/02/2021 15:18:07</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 12:50:16</Started>
-    <Ended>05/08/2020 12:51:07</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 12:51:07</Started>
-    <Ended>05/08/2020 12:51:14</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:18:07</Started>
+    <Ended>07/02/2021 15:19:01</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>'Search Module</TestScenario>
-    <TestName>Search</TestName>
-    <Started>05/08/2020 12:51:46</Started>
-    <Ended>05/08/2020 12:52:30</Ended>
-    <Status>FAILED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Exit</TestScenario>
-    <TestName>Exit</TestName>
-    <Started>05/08/2020 12:52:30</Started>
-    <Ended>05/08/2020 12:52:33</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 12:52:33</Started>
-    <Ended>05/08/2020 12:52:34</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 12:52:34</Started>
-    <Ended>05/08/2020 12:53:01</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 12:53:01</Started>
-    <Ended>05/08/2020 12:53:06</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:19:02</Started>
+    <Ended>07/02/2021 15:20:07</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 13:57:41</Started>
-    <Ended>05/08/2020 13:58:13</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:20:38</Started>
+    <Ended>07/02/2021 15:20:39</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Location</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:20:39</Started>
+    <Ended>07/02/2021 15:21:16</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:21:54</Started>
+    <Ended>07/02/2021 15:21:54</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:21:58</Started>
+    <Ended>07/02/2021 15:22:46</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:22:47</Started>
+    <Ended>07/02/2021 15:22:48</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Exit</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:22:53</Started>
+    <Ended>07/02/2021 15:23:25</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Face tracking</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:41:25</Started>
+    <Ended>07/02/2021 15:41:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Run the UbuntuHDC</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:41:29</Started>
+    <Ended>07/02/2021 15:42:26</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Check Video server</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:42:31</Started>
+    <Ended>07/02/2021 15:42:32</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:42:32</Started>
+    <Ended>07/02/2021 15:42:42</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>Gps_simulation</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:42:47</Started>
+    <Ended>07/02/2021 15:43:17</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:18</Started>
-    <Ended>05/08/2020 13:58:25</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:23</Started>
+    <Ended>07/02/2021 15:43:29</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:25</Started>
-    <Ended>05/08/2020 13:58:27</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:29</Started>
+    <Ended>07/02/2021 15:43:31</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:27</Started>
-    <Ended>05/08/2020 13:58:29</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:31</Started>
+    <Ended>07/02/2021 15:43:32</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:29</Started>
-    <Ended>05/08/2020 13:58:31</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:32</Started>
+    <Ended>07/02/2021 15:43:34</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:31</Started>
-    <Ended>05/08/2020 13:58:32</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:33</Started>
-    <Ended>05/08/2020 13:58:36</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:37</Started>
-    <Ended>05/08/2020 13:58:38</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:38</Started>
-    <Ended>05/08/2020 13:58:40</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:34</Started>
+    <Ended>07/02/2021 15:43:35</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:40</Started>
-    <Ended>05/08/2020 13:58:42</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:43</Started>
-    <Ended>05/08/2020 13:58:46</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:35</Started>
+    <Ended>07/02/2021 15:43:37</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 13:58:47</Started>
-    <Ended>05/08/2020 13:58:47</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:43:38</Started>
+    <Ended>07/02/2021 15:44:09</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 13:58:48</Started>
-    <Ended>05/08/2020 13:59:40</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:44:09</Started>
+    <Ended>07/02/2021 15:44:56</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 13:59:41</Started>
-    <Ended>05/08/2020 13:59:47</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:45:02</Started>
+    <Ended>07/02/2021 15:45:38</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>'Search Module</TestScenario>
-    <TestName>Search</TestName>
-    <Started>05/08/2020 14:00:20</Started>
-    <Ended>05/08/2020 14:01:22</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:46:14</Started>
+    <Ended>07/02/2021 15:47:31</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
-    <TestScenario>Exit</TestScenario>
-    <TestName>Exit</TestName>
-    <Started>05/08/2020 14:01:22</Started>
-    <Ended>05/08/2020 14:01:25</Ended>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 15:48:01</Started>
+    <Ended>07/02/2021 15:49:44</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 15:58:52</Started>
+    <Ended>07/02/2021 16:00:36</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 16:39:54</Started>
+    <Ended>07/02/2021 16:41:38</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 16:46:13</Started>
+    <Ended>07/02/2021 16:46:59</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:01:25</Started>
-    <Ended>05/08/2020 14:01:26</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:50:23</Started>
+    <Ended>07/02/2021 16:50:23</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 14:01:26</Started>
-    <Ended>05/08/2020 14:01:53</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:50:27</Started>
+    <Ended>07/02/2021 16:51:25</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 14:01:54</Started>
-    <Ended>05/08/2020 14:01:58</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:51:29</Started>
+    <Ended>07/02/2021 16:51:31</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:10:33</Started>
-    <Ended>05/08/2020 14:10:33</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:14:46</Started>
-    <Ended>05/08/2020 14:14:46</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:16:10</Started>
-    <Ended>05/08/2020 14:16:10</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:17:22</Started>
-    <Ended>05/08/2020 14:17:22</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:18:21</Started>
-    <Ended>05/08/2020 14:18:21</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 14:22:40</Started>
-    <Ended>05/08/2020 14:22:40</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 14:24:59</Started>
-    <Ended>05/08/2020 14:25:27</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 14:27:29</Started>
-    <Ended>05/08/2020 14:27:30</Ended>
+    <TestScenario>Login</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:51:31</Started>
+    <Ended>07/02/2021 16:51:46</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 14:57:55</Started>
-    <Ended>05/08/2020 14:58:26</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:51:51</Started>
+    <Ended>07/02/2021 16:52:22</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
     <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:58:32</Started>
-    <Ended>05/08/2020 14:58:38</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:28</Started>
+    <Ended>07/02/2021 16:52:34</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:58:39</Started>
-    <Ended>05/08/2020 14:58:40</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:34</Started>
+    <Ended>07/02/2021 16:52:36</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:58:41</Started>
-    <Ended>05/08/2020 14:58:42</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:36</Started>
+    <Ended>07/02/2021 16:52:38</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:58:43</Started>
-    <Ended>05/08/2020 14:59:13</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:38</Started>
+    <Ended>07/02/2021 16:52:40</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:14</Started>
-    <Ended>05/08/2020 14:59:15</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:16</Started>
-    <Ended>05/08/2020 14:59:19</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:20</Started>
-    <Ended>05/08/2020 14:59:21</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:22</Started>
-    <Ended>05/08/2020 14:59:23</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:40</Started>
+    <Ended>07/02/2021 16:52:42</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:24</Started>
-    <Ended>05/08/2020 14:59:26</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:26</Started>
-    <Ended>05/08/2020 14:59:29</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:42</Started>
+    <Ended>07/02/2021 16:52:44</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 14:59:31</Started>
-    <Ended>05/08/2020 14:59:31</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:52:46</Started>
+    <Ended>07/02/2021 16:53:17</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 14:59:33</Started>
-    <Ended>05/08/2020 15:00:26</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:53:18</Started>
+    <Ended>07/02/2021 16:54:05</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 15:00:26</Started>
-    <Ended>05/08/2020 15:00:33</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:54:11</Started>
+    <Ended>07/02/2021 16:54:47</Ended>
     <Status>PASSED</Status>
   </Result>
   <Result>
     <TestScenario>'Search Module</TestScenario>
-    <TestName>Search</TestName>
-    <Started>05/08/2020 15:01:07</Started>
-    <Ended>05/08/2020 15:02:10</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 15:02:11</Started>
-    <Ended>05/08/2020 15:02:11</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 15:02:16</Started>
-    <Ended>05/08/2020 15:02:44</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 15:02:49</Started>
-    <Ended>05/08/2020 15:02:50</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Exit</TestScenario>
-    <TestName>Exit</TestName>
-    <Started>05/08/2020 15:02:57</Started>
-    <Ended>05/08/2020 15:03:00</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 15:08:54</Started>
-    <Ended>05/08/2020 15:09:25</Ended>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:55:24</Started>
+    <Ended>07/02/2021 16:57:09</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:09:31</Started>
-    <Ended>05/08/2020 15:09:38</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:09:38</Started>
-    <Ended>05/08/2020 15:09:39</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:09:40</Started>
-    <Ended>05/08/2020 15:09:42</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Locatopn</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:11:45</Started>
-    <Ended>05/08/2020 15:12:22</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Import Hot-List button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:22</Started>
-    <Ended>05/08/2020 15:12:24</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Add plate</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:24</Started>
-    <Ended>05/08/2020 15:12:26</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Search button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:26</Started>
-    <Ended>05/08/2020 15:12:29</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Exit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:29</Started>
-    <Ended>05/08/2020 15:12:31</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Refresh button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:31</Started>
-    <Ended>05/08/2020 15:12:35</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear list button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:35</Started>
-    <Ended>05/08/2020 15:12:37</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Clear hit button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:37</Started>
-    <Ended>05/08/2020 15:12:39</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Setup button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:39</Started>
-    <Ended>05/08/2020 15:12:41</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Display</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:42</Started>
-    <Ended>05/08/2020 15:12:45</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Check Minimize button</TestScenario>
-    <TestName>Home_Smoke</TestName>
-    <Started>05/08/2020 15:12:46</Started>
-    <Ended>05/08/2020 15:12:47</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Setup</TestScenario>
-    <TestName>Setup</TestName>
-    <Started>05/08/2020 15:12:48</Started>
-    <Ended>05/08/2020 15:13:41</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Gps_simulation</TestScenario>
-    <TestName>GPS_Simulation</TestName>
-    <Started>05/08/2020 15:13:42</Started>
-    <Ended>05/08/2020 15:13:43</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Location</TestScenario>
-    <TestName>Location</TestName>
-    <Started>05/08/2020 15:13:44</Started>
-    <Ended>05/08/2020 15:13:50</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>'Search Module</TestScenario>
-    <TestName>Search</TestName>
-    <Started>05/08/2020 15:14:24</Started>
-    <Ended>05/08/2020 15:15:12</Ended>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>DynamicActivity</TestName>
+    <Started>07/02/2021 16:57:39</Started>
+    <Ended>07/02/2021 16:59:22</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Check Face tracking</TestScenario>
-    <TestName>FaceTracking</TestName>
-    <Started>05/08/2020 15:15:12</Started>
-    <Ended>05/08/2020 15:15:13</Ended>
-    <Status>PASSED</Status>
-  </Result>
-  <Result>
-    <TestScenario>Run the UbuntuHDC</TestScenario>
-    <TestName>UbuntuHDC</TestName>
-    <Started>05/08/2020 15:15:18</Started>
-    <Ended>05/08/2020 15:15:59</Ended>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 17:05:02</Started>
+    <Ended>07/02/2021 17:05:04</Ended>
     <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Check Video server</TestScenario>
-    <TestName>VideoServer</TestName>
-    <Started>05/08/2020 15:16:12</Started>
-    <Ended>05/08/2020 15:16:13</Ended>
-    <Status>PASSED</Status>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 17:05:29</Started>
+    <Ended>07/02/2021 17:05:33</Ended>
+    <Status>FAILED</Status>
   </Result>
   <Result>
-    <TestScenario>Exit</TestScenario>
-    <TestName>Exit</TestName>
-    <Started>05/08/2020 15:16:20</Started>
-    <Ended>05/08/2020 15:16:23</Ended>
-    <Status>PASSED</Status>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 17:07:04</Started>
+    <Ended>07/02/2021 17:08:41</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 17:09:24</Started>
+    <Ended>07/02/2021 17:09:37</Ended>
+    <Status>FAILED</Status>
+  </Result>
+  <Result>
+    <TestScenario>StartShiftEndShift</TestScenario>
+    <TestName>StartShiftEndShift</TestName>
+    <Started>07/02/2021 17:13:24</Started>
+    <Ended>07/02/2021 17:13:39</Ended>
+    <Status>FAILED</Status>
   </Result>
 </Test-Suite>

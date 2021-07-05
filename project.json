@@ -1,7 +1,7 @@
 {
   "name": "CDMP",
   "description": "Blank Process",
-  "main": "UbuntuHDC.xaml",
+  "main": "ResearchandDevelopement\\TakeScreenShot.xaml",
   "dependencies": {
     "ColorCode": "[1.0.1]",
     "ColorCode.Core": "[2.0.6]",
@@ -16,6 +16,7 @@
     "UiPathTeam.ImageFilterInvertColorsActivities": "[1.0.0]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.12.0.61",
   "projectVersion": "1.0.0",
@@ -28,7 +29,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,7 +40,23 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfos": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "ResearchandDevelopement\\TakeScreenShot.xaml",
+      "uniqueId": "066d198e-0027-4116-aebc-27ce9e36e0ef",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
 }

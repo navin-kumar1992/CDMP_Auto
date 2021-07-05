@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Setup" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2785.6,24016.8" sap2010:WorkflowViewState.IdRef="Setup_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:t="clr-namespace:TestReportGenerator;assembly=TestReportGenerator" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Setup" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2755.2,24352" sap2010:WorkflowViewState.IdRef="Setup_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:t="clr-namespace:TestReportGenerator;assembly=TestReportGenerator" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="23">
       <x:String>System.Activities</x:String>
@@ -49,7 +49,7 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Setup" sap:VirtualizedContainerService.HintSize="2765.6,23916.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Setup" sap:VirtualizedContainerService.HintSize="2765.6,24187.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="logintable" />
     </Sequence.Variables>
@@ -58,7 +58,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <t:StartTest TestCase="{x:Null}" DisplayName="Start test" sap:VirtualizedContainerService.HintSize="2724,22.4" sap2010:WorkflowViewState.IdRef="StartTest_1" ScenarioName="Setup" Status="STARTED" />
+    <t:StartTest TestCase="{x:Null}" DisplayName="Start test" sap:VirtualizedContainerService.HintSize="2724,134.4" sap2010:WorkflowViewState.IdRef="StartTest_1" ScenarioName="Setup" Status="STARTED" />
     <ui:ReadRange AddHeaders="True" DataTable="[logintable]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="2724,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Setup" WorkbookPath="Read.xlsx">
       <ui:ReadRange.Range>
         <InArgument x:TypeArguments="x:String">
@@ -68,21 +68,21 @@
     </ui:ReadRange>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2724,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[system.DateTime.now.ToString  + &quot;  Click on Face Pop UpPriority As&quot; +&quot;Used the read range method&quot;]" />
     <ui:WriteTextFile DisplayName="Write Text File" FileName="nkvt.log" sap:VirtualizedContainerService.HintSize="2724,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[system.DateTime.now.ToString  + &quot;  execution started&quot;]" />
-    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[logintable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="2724,23326.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[logintable]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="2724,23484.8" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="2674.4,23177.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap:VirtualizedContainerService.HintSize="2674.4,23336" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="2632.8,23084.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="2632.8,23243.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="2596,22853.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence sap:VirtualizedContainerService.HintSize="2596,23012" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Default="[row(&quot;CameraName&quot;).ToString]" Name="Camera" />
                   </Sequence.Variables>
@@ -103,7 +103,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="b5e03598c85b46d838b7a49356dfc329" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='CarDetector_MainFrame' title='Vigilant Mobile LPR               Username: india_Uat_PE2    Sys*' /&gt;&lt;wnd ctrlid='10572' title='Setup' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="1ea1bc3e300e4898e3dd0bd1f743a28c" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='CarDetector_MainFrame' title='Vigilant Mobile LPR               Username: Uat_Demo_User2    Sy*' /&gt;&lt;wnd ctrlid='10572' title='Setup' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -151,7 +151,7 @@
                       </ui:Target>
                     </ui:TypeInto.Target>
                   </ui:TypeInto>
-                  <If Condition="[row(&quot;TestConnection&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,936.8" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If Condition="[row(&quot;TestConnection&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,946.4" sap2010:WorkflowViewState.IdRef="If_1">
                     <If.Then>
                       <Sequence sap:VirtualizedContainerService.HintSize="375.2,787.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
                         <sap:WorkflowViewStateService.ViewState>
@@ -242,7 +242,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'list item'" sap:VirtualizedContainerService.HintSize="2554.4,107.2" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="[ClickType.CLICK_SINGLE]" DisplayName="Click 'list item'" sap:VirtualizedContainerService.HintSize="2554.4,107.2" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -254,7 +254,7 @@
                       </ui:CursorPosition>
                     </ui:Click.CursorPosition>
                     <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="cf2c40e2766943d46ca6f31471df15dc" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='10506' title='List1' /&gt;&lt;ctrl role='list item' virtualname='{{Camera}}' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="d586bd77d2a1752ab2672d22f9e6638c" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='10506' title='List1' /&gt;&lt;ctrl role='list item' virtualname='1 Camera #1' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
@@ -410,13 +410,13 @@
                   <ui:AppendLine DisplayName="Append Line" FileName="nkvt.log" sap:VirtualizedContainerService.HintSize="2554.4,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_9" Text="[system.DateTime.now.ToString  + &quot;click on the cancel button&quot;]" />
                   <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="2554.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="836,749.6" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="836,759.2" sap2010:WorkflowViewState.IdRef="Sequence_41">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <If Condition="[row(&quot;SaveAction&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,656.8" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If Condition="[row(&quot;SaveAction&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,666.4" sap2010:WorkflowViewState.IdRef="If_2">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,507.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
                               <sap:WorkflowViewStateService.ViewState>
@@ -517,7 +517,7 @@
                   </ui:Click>
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2554.4,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;Click on the Audio tab&quot;]" />
                   <ui:AppendLine DisplayName="Append Line" FileName="nkvt.log" sap:VirtualizedContainerService.HintSize="2554.4,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_12" Text="[system.DateTime.now.ToString  + &quot;click on the audio button&quot;]" />
-                  <If Condition="[row(&quot;SoundAction&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,1699.2" sap2010:WorkflowViewState.IdRef="If_3">
+                  <If Condition="[row(&quot;SoundAction&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,1708.8" sap2010:WorkflowViewState.IdRef="If_3">
                     <If.Then>
                       <Sequence sap:VirtualizedContainerService.HintSize="375.2,1549.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
@@ -623,7 +623,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <If Condition="[row(&quot;OCR&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,1139.2" sap2010:WorkflowViewState.IdRef="If_4">
+                  <If Condition="[row(&quot;OCR&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,1148.8" sap2010:WorkflowViewState.IdRef="If_4">
                     <If.Then>
                       <Sequence sap:VirtualizedContainerService.HintSize="400,989.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
                         <sap:WorkflowViewStateService.ViewState>
@@ -737,9 +737,9 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <If Condition="[row(&quot;Alert&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,14900" sap2010:WorkflowViewState.IdRef="If_5">
+                  <If Condition="[row(&quot;Alert&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2554.4,15029.6" sap2010:WorkflowViewState.IdRef="If_5">
                     <If.Then>
-                      <Sequence sap:VirtualizedContainerService.HintSize="2135.2,14750.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <Sequence sap:VirtualizedContainerService.HintSize="2135.2,14870.4" sap2010:WorkflowViewState.IdRef="Sequence_12">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:Boolean" Name="available" />
                         </Sequence.Variables>
@@ -772,9 +772,9 @@
                         </ui:Click>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2093.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info" Message="[&quot;Click on the Alert tab&quot;]" />
                         <ui:AppendLine DisplayName="Append Line" FileName="nkvt.log" sap:VirtualizedContainerService.HintSize="2093.6,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_19" Text="[system.DateTime.now.ToString  + &quot;Enter  the path as &quot;+&quot;Click on the alert tab&quot;]" />
-                        <If Condition="[row(&quot;ExactMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,806.4" sap2010:WorkflowViewState.IdRef="If_8">
+                        <If Condition="[row(&quot;ExactMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,825.6" sap2010:WorkflowViewState.IdRef="If_8">
                           <If.Then>
-                            <If Condition="[row(&quot;ExactMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,656.8" sap2010:WorkflowViewState.IdRef="If_6">
+                            <If Condition="[row(&quot;ExactMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,666.4" sap2010:WorkflowViewState.IdRef="If_6">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="375.2,507.2" sap2010:WorkflowViewState.IdRef="Sequence_14">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -844,7 +844,7 @@
                             </If>
                           </If.Then>
                           <If.Else>
-                            <If Condition="[row(&quot;OneOffMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,656.8" sap2010:WorkflowViewState.IdRef="If_7">
+                            <If Condition="[row(&quot;OneOffMatch&quot;).ToString.Equals(&quot;1&quot;)]" sap:VirtualizedContainerService.HintSize="794.4,666.4" sap2010:WorkflowViewState.IdRef="If_7">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="375.2,507.2" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -914,7 +914,7 @@
                             </If>
                           </If.Else>
                         </If>
-                        <If Condition="[row(&quot;IgnoreOutOfState&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,482.4" sap2010:WorkflowViewState.IdRef="If_9">
+                        <If Condition="[row(&quot;IgnoreOutOfState&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,492" sap2010:WorkflowViewState.IdRef="If_9">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,332.8" sap2010:WorkflowViewState.IdRef="Sequence_18">
                               <sap:WorkflowViewStateService.ViewState>
@@ -951,7 +951,7 @@
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_29" Level="Info" Message="[&quot;User dont't want to select ignore out of state&quot;]" />
                           </If.Else>
                         </If>
-                        <If Condition="[row(&quot;SoundAudioAlert&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,482.4" sap2010:WorkflowViewState.IdRef="If_10">
+                        <If Condition="[row(&quot;SoundAudioAlert&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,492" sap2010:WorkflowViewState.IdRef="If_10">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,332.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
                               <sap:WorkflowViewStateService.ViewState>
@@ -1017,7 +1017,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[row(&quot;TriggerpopupWindow&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,482.4" sap2010:WorkflowViewState.IdRef="If_11">
+                        <If Condition="[row(&quot;TriggerpopupWindow&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,492" sap2010:WorkflowViewState.IdRef="If_11">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,332.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
                               <sap:WorkflowViewStateService.ViewState>
@@ -1083,7 +1083,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[row(&quot;ForcePopUpPriority&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,482.4" sap2010:WorkflowViewState.IdRef="If_12">
+                        <If Condition="[row(&quot;ForcePopUpPriority&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,492" sap2010:WorkflowViewState.IdRef="If_12">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,332.8" sap2010:WorkflowViewState.IdRef="Sequence_23">
                               <sap:WorkflowViewStateService.ViewState>
@@ -1149,7 +1149,7 @@
                             </Sequence>
                           </If.Else>
                         </If>
-                        <If Condition="[row(&quot;RequireHitconfirmation&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,482.4" sap2010:WorkflowViewState.IdRef="If_13">
+                        <If Condition="[row(&quot;RequireHitconfirmation&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,492" sap2010:WorkflowViewState.IdRef="If_13">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,332.8" sap2010:WorkflowViewState.IdRef="Sequence_25">
                               <sap:WorkflowViewStateService.ViewState>
@@ -1227,7 +1227,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="a3227b3df1e4277291b119d690f19d2e" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102685' title='Clean' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ab87026da3ae9da93d43adcb7a0cb894" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102685' title='Clean' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -1238,7 +1238,7 @@
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2093.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info" Message="[&quot;Click on the clean tab&quot;]" />
-                        <If Condition="[row(&quot;Clean&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,790.4" sap2010:WorkflowViewState.IdRef="If_14">
+                        <If Condition="[row(&quot;Clean&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,800" sap2010:WorkflowViewState.IdRef="If_14">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="375.2,640.8" sap2010:WorkflowViewState.IdRef="Sequence_28">
                               <sap:WorkflowViewStateService.ViewState>
@@ -1300,7 +1300,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="d455e7a3ad9e56a4ae129159e0df8698" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102686' title='LEARN' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="0883fc9f7cdb5d38f4d02a75219e5237" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102686' title='Server' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -1311,9 +1311,9 @@
                           </ui:Click.Target>
                         </ui:Click>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2093.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_43" Level="Info" Message="[&quot;Click on the learn tab&quot;]" />
-                        <If Condition="[row(&quot;Website&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,1308.8" sap2010:WorkflowViewState.IdRef="If_16">
+                        <If Condition="[row(&quot;Website&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="2093.6,1352" sap2010:WorkflowViewState.IdRef="If_16">
                           <If.Then>
-                            <Sequence sap:VirtualizedContainerService.HintSize="794.4,1159.2" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                            <Sequence sap:VirtualizedContainerService.HintSize="794.4,1172.8" sap2010:WorkflowViewState.IdRef="Sequence_30">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1332,7 +1332,7 @@
                                 </ui:TypeInto.Target>
                               </ui:TypeInto>
                               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="752.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_44" Level="Info" Message="[&quot;Enter the value as&quot;+row(&quot;WebsiteLink&quot;).ToString]" />
-                              <If Condition="[row(&quot;TestConnection1&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="752.8,758.4" sap2010:WorkflowViewState.IdRef="If_15">
+                              <If Condition="[row(&quot;TestConnection1&quot;).ToString.Equals(&quot;yes&quot;)]" sap:VirtualizedContainerService.HintSize="752.8,772" sap2010:WorkflowViewState.IdRef="If_15">
                                 <If.Then>
                                   <Sequence sap:VirtualizedContainerService.HintSize="375.2,612.8" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -1407,7 +1407,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="119e180ee34f25ab8ea282bc51a7c7a3" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102687' title='Proxy' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="48bf5bad68f17b29425712327a0777c5" Selector="&lt;wnd app='dspcontrolcenter.exe' cls='#32770' idx='*' /&gt;&lt;wnd ctrlid='102687' title='Proxy' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>

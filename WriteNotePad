@@ -1,9 +1,6 @@
-05/08/2020 15:11:24  execution started
-05/08/2020 15:11:30  Click on the ok button
-05/08/2020 15:11:38Enter the password :  india_Uat_PE2
-05/08/2020 15:11:39Enter the password : Vigilant1!
-05/08/2020 15:11:39click on the login button
-05/08/2020 15:11:39  Successfully login the page
-05/08/2020 15:15:18Launch the ubuntuhdc application
-05/08/2020 15:15:59Timeout reached.
-05/08/2020 15:16:11Run the finally block
+07/02/2021 16:51:31  execution started
+07/02/2021 16:51:37  Click on the ok button
+07/02/2021 16:51:44Enter the password :  Uat_Demo_User2
+07/02/2021 16:51:45Enter the password : Vigilant1!#
+07/02/2021 16:51:46click on the login button
+07/02/2021 16:51:46  Successfully login the page
